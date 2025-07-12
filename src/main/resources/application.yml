@@ -1,0 +1,21 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: pdf-generator
+  thymeleaf:
+    cache: false
+    mode: HTML
+    encoding: UTF-8
+
+logging:
+  level:
+    com.example.pdfgenerator: DEBUG
+    org.springframework.web: DEBUG
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+  api-docs:
+    path: /v3/api-docs
